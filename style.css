@@ -1,0 +1,104 @@
+*{
+    margin: 0 auto;
+}
+body{
+    background-color: darkkhaki;
+}
+.container{
+    margin-top: 125px;
+}
+
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: #50c878;
+}
+
+.block{
+    height: 100px;
+    width: 100px;
+    float: left;
+    color: gold;
+    border: 1px solid gold;
+    box-sizing: border-box;
+    line-height: 100px;
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.info{
+    line-height: 150px;
+    text-align: center;
+    font-size: 30px;
+    background-color: gold;
+    opacity: 0.9;
+}
+.currNow{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    top: 48%;
+    left: 950px;
+}
+#reload{
+    padding: 10px 20px;
+    background-color: #50c878;
+    border: 1px solid gold;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.2s;
+    outline: 0;
+}
+.curO{
+    padding: 10px 20px;
+    background-color: #50c878;
+    border: 1px solid gold;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.2s;
+    outline: 0;
+}
+.curX{
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid gold;
+    font-size: 20px;
+    color: #50c878;
+    border-radius: 5px;
+    transition: all 0.2s;
+    outline: 0;
+}
+.curO:hover{
+    background-color: white;
+    color: #50c878;
+}
+.curX:hover{
+    background-color: #50c878;
+    color: white;
+}
+#reload:hover{
+    background-color: white;
+    color: #50c878;
+}
+.current-player{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 43%;
+    left: 400px;
+}
+.ttt{
+    padding-top: 50px;
+    text-align: center;
+}
+#title{
+    font-size: 40px;
+    color: gold;
+}
